@@ -2,7 +2,7 @@
   "name": "website",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://JSALT-2022-SSL/JSALT-2022-SSL.github.io",
+  "homepage": "https://jsalt-2022-ssl.github.io",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.2",
     "@testing-library/react": "^12.1.4",
