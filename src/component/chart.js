@@ -1,82 +1,104 @@
 import React from "react";
 import {makeStyles} from "@material-ui/core/styles";
 import {FormControl, Grid, InputLabel, MenuItem, Select,} from "@material-ui/core";
-import {
-    CartesianGrid,
-    Legend,
-    ResponsiveContainer,
-    Scatter,
-    ScatterChart,
-    Tooltip,
-    XAxis,
-    YAxis,
-    ZAxis,
-} from "recharts";
+import {CartesianGrid, ResponsiveContainer, Scatter, ScatterChart, Tooltip, XAxis, YAxis, ZAxis,} from "recharts";
 import data from "./data/progress.json";
 
 const public_task_columnInfo = {
     PR_per_public: {
         header: "PR",
+        fullname: "Phoneme Recognition",
+        corpus: "LibriSpeech",
         higherBetter: false,
     },
     KS_acc_public: {
         header: "KS",
+        fullname: "Keyword Spotting",
+        corpus: "Speech Commands dataset v1.0",
         higherBetter: true,
     },
     IC_acc_public: {
         header: "IC",
+        fullname: "Intent Classification",
+        corpus: "Fluent Speech Commands ",
         higherBetter: true,
     },
     SID_acc_public: {
         header: "SID",
+        fullname: "Speaker Identification",
+        corpus: "VoxCeleb1",
         higherBetter: true,
     },
     ER_acc_public: {
         header: "ER",
+        fullname: "Emotion Recognition",
+        corpus: "IEMOCAP",
         higherBetter: true,
     },
     ASR_wer_public: {
         header: "ASR",
+        fullname: "Automatic Speech Recognition",
+        corpus: "LibriSpeech",
         higherBetter: false,
     },
     ASR_LM_wer_public: {
         header: "ASR-LM",
+        fullname: "Automatic Speech Recognition",
+        corpus: "LibriSpeech",
         higherBetter: false,
     },
     QbE_mtwv_public: {
         header: "QbE",
+        fullname: "Query by Example Spoken Term Detection",
+        corpus: "QUESST 2014",
         higherBetter: true,
     },
     SF_f1_public: {
         header: "SF-F1",
+        fullname: "Slot Filling",
+        corpus: "Audio SNIPS",
         higherBetter: true,
     },
     SF_cer_public: {
         header: "SF-CER",
+        fullname: "Slot Filling",
+        corpus: "Audio SNIPS",
         higherBetter: false,
     },
     SV_eer_public: {
         header: "SV",
+        fullname: "Speaker Verification",
+        corpus: "VoxCeleb1",
         higherBetter: false,
     },
     SD_der_public: {
         header: "SD",
+        fullname: "Speaker Diarization",
+        corpus: "LibriMix",
         higherBetter: false,
     },
     ST_bleu_public: {
         header: "ST",
+        fullname: "Speech Translation",
+        corpus: "CoVoST2 En to De",
         higherBetter: true,
     },
     SE_pesq_public: {
         header: "SE-PESQ",
+        fullname: "Speech Enhancement",
+        corpus: "Voicebank DEMAND",
         higherBetter: true,
     },
     SE_stoi_public: {
         header: "SE-STOI",
+        fullname: "Speech Enhancement",
+        corpus: "Voicebank DEMAND",
         higherBetter: true,
     },
     SS_sisdri_public: {
         header: "SS",
+        fullname: "Speech Separation",
+        corpus: "LibriSpeech & WHAM",
         higherBetter: true,
     },
 }
@@ -128,6 +150,8 @@ function ModelScatterChart(...props) {
         [0, 375, 750, 1125, 1500],
         [0, 625, 1250, 1875, 2500],
     ];
+    const yTask = Object.keys(scores).map(value => scores[value].fullname);
+    const yCorpus = Object.keys(scores).map(value => scores[value].corpus);
     const yOptions = Object.keys(scores).map(value => scores[value].header);
     const yAccess = Object.keys(scores)[y];
     const presentData = data["leaderboard"].filter(
@@ -167,6 +191,10 @@ function ModelScatterChart(...props) {
                   direction="column"
                   justifyContent="flex-start">
                 <Grid item>
+                    <h5>{yTask[y]}</h5>
+                    <h5>{yCorpus[y]}</h5>
+                </Grid>
+                <Grid item>
                     <SelectVariants
                         value={y}
                         setValue={setY}
@@ -183,7 +211,7 @@ function ModelScatterChart(...props) {
             </Grid>
 
             <Grid container item xs={12} sm={12} md={9} lg={7} xl={6}>
-                <ResponsiveContainer width="100%" height={1000}>
+                <ResponsiveContainer width="100%" height={500}>
                     <ScatterChart>
                         <CartesianGrid strokeDasharray="5 5"/>
                         <XAxis
@@ -205,12 +233,12 @@ function ModelScatterChart(...props) {
                                scale="auto"
                                range={[60, 700]}/>
                         <Tooltip cursor={{strokeDasharray: '8 8'}} label={xOptions[x]} content={<CustomTooltip/>}/>
-                        <Legend/>
+                        {/*<Legend/>*/}
                         {presentData.map((value, index) =>
                             <Scatter name={value.submitName}
                                      key={index}
                                      data={[value]}
-                                     fill={'hsla(' + (360 / presentData.length * index) + ', 80%, 50%, 0.8)'}/>
+                                     fill="#9E9E9E"/>
                         )}
                     </ScatterChart>
                 </ResponsiveContainer>
