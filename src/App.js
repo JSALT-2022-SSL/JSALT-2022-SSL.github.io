@@ -3,20 +3,24 @@ import './assets/css/main.css';
 import React from "react";
 import Video from './assets/videos/bg.mp4';
 import {IntroPage} from "./Intro";
-import {TopicPage} from "./Topic";
+import {ProgressPage} from "./Progress";
+import {MemberPage} from "./Member";
 
 class App extends React.Component {
+
     constructor(props) {
         super(props);
         this.state = {
-            is_intro: true
+            selected: 'intro'
         };
         this.handleClick = this.handleClick.bind(this)
     }
 
-    handleClick(is_intro) {
-        this.setState({'is_intro': is_intro});
+
+    handleClick(item) {
+        this.setState({'selected': item});
     }
+
 
     render() {
         return (<div className="App">
@@ -40,10 +44,16 @@ class App extends React.Component {
 
                     <nav id="nav">
                         <ul className="links">
-                            <li className={(this.state.is_intro ? 'active' : '')}><a
-                                onClick={() => this.handleClick(true)}>Intro</a></li>
-                            <li className={(this.state.is_intro ? '' : 'active')}><a
-                                onClick={() => this.handleClick(false)}>Topic</a></li>
+                            <li className={(this.state.selected === 'intro' ? 'active' : '')}><a
+                                onClick={() => this.handleClick('intro')}>Intro</a></li>
+                            <li>
+                                <a href="https://twitter.com/JSALT_pretrain">News</a>
+                            </li>
+                            <li className={(this.state.selected === 'progress' ? 'active' : '')}><a
+                                onClick={() => this.handleClick('progress')}>Progress</a></li>
+                            <li className={(this.state.selected === 'member' ? 'active' : '')}><a
+                                onClick={() => this.handleClick('member')}>Member</a></li>
+
                         </ul>
                         <ul className="icons">
                             <li>
@@ -57,10 +67,21 @@ class App extends React.Component {
                                     <span className="label">GitHub</span>
                                 </a>
                             </li>
+                            <li>
+                                <a href="https://twitter.com/JSALT_pretrain" className="icon brands fa-twitter">
+                                    <span className="label">Twitter</span>
+                                </a>
+                            </li>
                         </ul>
                     </nav>
 
-                    {this.state.is_intro ? <IntroPage/> : <TopicPage/>}
+                    {
+                        {
+                            'intro': <IntroPage/>,
+                            'progress': <ProgressPage/>,
+                            'member': <MemberPage/>
+                        }[this.state.selected]
+                    }
                     <div id="copyright">
                         <ul>
                             <li>&copy; voidful</li>

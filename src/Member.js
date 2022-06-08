@@ -1,7 +1,7 @@
 import React from 'react'
 import './index.css';
 
-class TopicPage extends React.Component {
+class MemberPage extends React.Component {
     render() {
         return (
             <div id="main">
@@ -78,4 +78,4 @@ class TopicPage extends React.Component {
     }
 }
 
-export {TopicPage}
+export {MemberPage}
