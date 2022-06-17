@@ -100,7 +100,8 @@
       "SD_finetuned_param": 1580000,
       "ER_finetuned_param": 200000,
       "SE_finetuned_param": 50970000,
-      "SS_finetuned_param": 51430000
+      "SS_finetuned_param": 51430000,
+      "ST_finetuned_param": 28800000
     },
     {
       "name": "paper",
@@ -150,7 +151,8 @@
       "SD_finetuned_param": 1580000,
       "ER_finetuned_param": 200000,
       "SE_finetuned_param": 50970000,
-      "SS_finetuned_param": 51430000
+      "SS_finetuned_param": 51430000,
+      "ST_finetuned_param": 28800000
     },
     {
       "name": "paper",
@@ -200,7 +202,8 @@
       "SD_finetuned_param": 1580000,
       "ER_finetuned_param": 200000,
       "SE_finetuned_param": 50970000,
-      "SS_finetuned_param": 51430000
+      "SS_finetuned_param": 51430000,
+      "ST_finetuned_param": 28800000
     },
     {
       "name": "paper",
@@ -250,7 +253,8 @@
       "SD_finetuned_param": 1580000,
       "ER_finetuned_param": 200000,
       "SE_finetuned_param": 50970000,
-      "SS_finetuned_param": 51430000
+      "SS_finetuned_param": 51430000,
+      "ST_finetuned_param": 28800000
     },
     {
       "name": "paper",
@@ -300,7 +304,8 @@
       "SD_finetuned_param": 1580000,
       "ER_finetuned_param": 200000,
       "SE_finetuned_param": 50970000,
-      "SS_finetuned_param": 51430000
+      "SS_finetuned_param": 51430000,
+      "ST_finetuned_param": 28800000
     },
     {
       "name": "paper",
@@ -350,7 +355,8 @@
       "SD_finetuned_param": 1580000,
       "ER_finetuned_param": 200000,
       "SE_finetuned_param": 50970000,
-      "SS_finetuned_param": 51430000
+      "SS_finetuned_param": 51430000,
+      "ST_finetuned_param": 28800000
     },
     {
       "name": "paper",
@@ -400,7 +406,8 @@
       "SD_finetuned_param": 1580000,
       "ER_finetuned_param": 200000,
       "SE_finetuned_param": 50970000,
-      "SS_finetuned_param": 51430000
+      "SS_finetuned_param": 51430000,
+      "ST_finetuned_param": 28800000
     },
     {
       "name": "paper",
@@ -450,7 +457,8 @@
       "SD_finetuned_param": 1580000,
       "ER_finetuned_param": 200000,
       "SE_finetuned_param": 50970000,
-      "SS_finetuned_param": 51430000
+      "SS_finetuned_param": 51430000,
+      "ST_finetuned_param": 28800000
     },
     {
       "name": "paper",
@@ -500,7 +508,8 @@
       "SD_finetuned_param": 1580000,
       "ER_finetuned_param": 200000,
       "SE_finetuned_param": 50970000,
-      "SS_finetuned_param": 51430000
+      "SS_finetuned_param": 51430000,
+      "ST_finetuned_param": 28800000
     },
     {
       "name": "paper",
@@ -550,7 +559,8 @@
       "SD_finetuned_param": 1580000,
       "ER_finetuned_param": 200000,
       "SE_finetuned_param": 50970000,
-      "SS_finetuned_param": 51430000
+      "SS_finetuned_param": 51430000,
+      "ST_finetuned_param": 28800000
     },
     {
       "name": "paper",
@@ -600,7 +610,8 @@
       "SD_finetuned_param": 1580000,
       "ER_finetuned_param": 200000,
       "SE_finetuned_param": 50970000,
-      "SS_finetuned_param": 51430000
+      "SS_finetuned_param": 51430000,
+      "ST_finetuned_param": 28800000
     },
     {
       "name": "paper",
@@ -650,7 +661,8 @@
       "SD_finetuned_param": 1580000,
       "ER_finetuned_param": 200000,
       "SE_finetuned_param": 50970000,
-      "SS_finetuned_param": 51430000
+      "SS_finetuned_param": 51430000,
+      "ST_finetuned_param": 28800000
     },
     {
       "name": "paper",
@@ -700,7 +712,8 @@
       "SD_finetuned_param": 1580000,
       "ER_finetuned_param": 200000,
       "SE_finetuned_param": 50970000,
-      "SS_finetuned_param": 51430000
+      "SS_finetuned_param": 51430000,
+      "ST_finetuned_param": 28800000
     },
     {
       "name": "paper",
@@ -750,7 +763,8 @@
       "SD_finetuned_param": 1580000,
       "ER_finetuned_param": 200000,
       "SE_finetuned_param": 50970000,
-      "SS_finetuned_param": 51430000
+      "SS_finetuned_param": 51430000,
+      "ST_finetuned_param": 28800000
     },
     {
       "aoeTimeUpload": "2021-10-19 13:32:26",
@@ -802,7 +816,8 @@
       "SD_finetuned_param": 1580000,
       "ER_finetuned_param": 200000,
       "SE_finetuned_param": 50970000,
-      "SS_finetuned_param": 51430000
+      "SS_finetuned_param": 51430000,
+      "ST_finetuned_param": 28800000
     },
     {
       "aoeTimeUpload": "2021-11-17 04:03:32",
@@ -854,7 +869,8 @@
       "SD_finetuned_param": 1580000,
       "ER_finetuned_param": 200000,
       "SE_finetuned_param": 50970000,
-      "SS_finetuned_param": 51430000
+      "SS_finetuned_param": 51430000,
+      "ST_finetuned_param": 28800000
     },
     {
       "aoeTimeUpload": "2021-11-28 19:25:13",
@@ -906,7 +922,8 @@
       "SD_finetuned_param": 1580000,
       "ER_finetuned_param": 200000,
       "SE_finetuned_param": 50970000,
-      "SS_finetuned_param": 51430000
+      "SS_finetuned_param": 51430000,
+      "ST_finetuned_param": 28800000
     },
     {
       "aoeTimeUpload": "2021-11-28 19:26:49",
@@ -958,7 +975,8 @@
       "SD_finetuned_param": 1580000,
       "ER_finetuned_param": 200000,
       "SE_finetuned_param": 50970000,
-      "SS_finetuned_param": 51430000
+      "SS_finetuned_param": 51430000,
+      "ST_finetuned_param": 28800000
     },
     {
       "aoeTimeUpload": "2021-12-30 22:45:30",
@@ -1010,7 +1028,8 @@
       "SD_finetuned_param": 1580000,
       "ER_finetuned_param": 200000,
       "SE_finetuned_param": 50970000,
-      "SS_finetuned_param": 51430000
+      "SS_finetuned_param": 51430000,
+      "ST_finetuned_param": 28800000
     },
     {
       "aoeTimeUpload": "2022-03-30 01:46:55",
@@ -1062,7 +1081,8 @@
       "SD_finetuned_param": 1580000,
       "ER_finetuned_param": 200000,
       "SE_finetuned_param": 50970000,
-      "SS_finetuned_param": 51430000
+      "SS_finetuned_param": 51430000,
+      "ST_finetuned_param": 28800000
     },
     {
       "aoeTimeUpload": "2022-03-30 02:05:47",
@@ -1114,7 +1134,8 @@
       "SD_finetuned_param": 1580000,
       "ER_finetuned_param": 200000,
       "SE_finetuned_param": 50970000,
-      "SS_finetuned_param": 51430000
+      "SS_finetuned_param": 51430000,
+      "ST_finetuned_param": 28800000
     },
     {
       "aoeTimeUpload": "2022-05-25 03:57:24",
@@ -1166,7 +1187,8 @@
       "SD_finetuned_param": 1580000,
       "ER_finetuned_param": 200000,
       "SE_finetuned_param": 50970000,
-      "SS_finetuned_param": 51430000
+      "SS_finetuned_param": 51430000,
+      "ST_finetuned_param": 28800000
     },
     {
       "aoeTimeUpload": "2022-05-25 15:15:57",
@@ -1218,7 +1240,8 @@
       "SD_finetuned_param": 1580000,
       "ER_finetuned_param": 200000,
       "SE_finetuned_param": 50970000,
-      "SS_finetuned_param": 51430000
+      "SS_finetuned_param": 51430000,
+      "ST_finetuned_param": 28800000
     }
   ]
 }

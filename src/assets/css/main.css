@@ -365,6 +365,10 @@ hr {
     align-items: flex-end;
 }
 
+.row.aln-baseline {
+    align-items: baseline;
+}
+
 .row > .imp {
     order: -1;
 }

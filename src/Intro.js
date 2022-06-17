@@ -43,8 +43,8 @@ class IntroPage extends React.Component {
                     <header>
                         <h3>Full Proposal</h3>
                     </header>
+                    <h5>Research Direction</h5>
                     <p>
-                        <h5>Research Direction</h5>
                         <br/>
                         I. Pre-trained Models for Prosody. Previous work has studied the ability of pre-trained
                         models to extract phonetic and speaker information [Yang et al., 2021][Evain et al.,
@@ -93,8 +93,8 @@ class IntroPage extends React.Component {
                         a small yet powerful pre-trained model.
                         <br/>
                     </p>
+                    <h5>Preparation</h5>
                     <p>
-                        <h5>Preparation</h5>
                         <br/>
                         Team members developed a public toolkit s3prl (https://github.com/s3prl/s3prl) to
                         support pre-training research on speech processing tasks. These toolkits can support a
@@ -104,41 +104,53 @@ class IntroPage extends React.Component {
                         and downstream tasks for evaluation are ready.
                         <br/>
                     </p>
+                    <h5>Reference</h5>
                     <p>
-                        <h5>Timeline</h5>
                         <br/>
-                        <h5>Heavy Pre-training (Pre-workshop)<br/></h5>
-                        ● Preparing all pre-trained models and downstream tasks.<br/>
-                        ● Running the standard techniques in each direction.<br/>
-                        ● Fine-tuning and Lightweight Pre-training (During workshop)<br/>
-                        <br/>
-                        <h5>Fine-tuning and Lightweight Pre-training (During workshop)</h5>
-                        2 Weeks:<br/>
-                        ● Integrating the directions (e.g., model compression may change model robustness, etc.)<br/>
-                        ● Fine-tuning and Lightweight Pre-training (During workshop)<br/>
-                        <br/>
-                        4 weeks:<br/>
-                        ● Preparing the outcomes for each direction.<br/>
-                        ● Investigating new ideas for leveraging pre-training spanning the four directions.<br/>
-                    </p>
-                    <p>
-                        <h5>Reference</h5>
-                        <br/>
-                        [Ben Zaken et al., 2021] Elad Ben Zaken, and Shauli Ravfogel, Yoav Goldberg, BitFit: Simple Parameter-efficient Fine-tuning for Transformer-based Masked Language-model, arXiv:2106.10199, 2021<br/>
-                        [Chang et al., 2021] Heng-Jui Chang, Shu-wen Yang, Hung-yi Lee, DistilHuBERT: Speech Representation Learning by Layer-wise Distillation of Hidden-unit BERT, arXiv:2110.01900, 2021<br/>
-                        [Evain et al., 2021] Solene Evain, Ha Nguyen, Hang Le, Marcely Zanon Boito, Salima Mdhaffar, Sina Alisamir, Ziyi Tong, Natalia Tomashenko, Marco Dinarelli, Titouan Parcollet, Alexandre Allauzen, Yannick Esteve, Benjamin Lecouteux, Francois Portet, Solange Rossato, Fabien Ringeval, Didier Schwab, Laurent Besacier, LeBenchmark: A Reproducible Framework for Assessing Self-Supervised Representation Learning from Speech, Interspeech, 2021<br/>
-                        [Ganesh et al., 2021] Prakhar Ganesh, Yao Chen, Xin Lou, Mohammad Ali Khan, Yin Yang, Hassan Sajjad, Preslav Nakov, Deming Chen, Marianne Winslett, Compressing Large-Scale Transformer-Based Models: A Case Study on BERT, TACL, 2021<br/>
-                        [Guo et al., 2020] Demi Guo, Alexander M Rush, Yoon Kim, Parameter-efficient transfer learning with diff pruning, arXiv:2012.07463, 2020<br/>
-                        [Hsu et al., 2021] Wei-Ning Hsu, Anuroop Sriram, Alexei Baevski, Tatiana Likhomanenko, Qiantong Xu, Vineel Pratap, Jacob Kahn, Ann Lee, Ronan Collobert, Gabriel Synnaeve, Michael Auli, Robust wav2vec 2.0: Analyzing Domain Shift in Self-Supervised Pre-Training, Interspeech, 2021<br/>
-                        [Lai et al., 2021] Cheng-I Jeff Lai, Yang Zhang, Alexander H. Liu, Shiyu Chang, Yi-Lun Liao, Yung-Sung Chuang, Kaizhi Qian, Sameer Khurana, David D. Cox, James R. Glass, PARP: Prune, Adjust and Re-Prune for Self-Supervised Speech Recognition, arXiv:2106.05933, 2021<br/>
-                        [Liu et al., 2021] Pengfei Liu, Weizhe Yuan and Jinlan Fu, Zhengbao Jiang, Hiroaki Hayashi, Graham Neubig, Pre-train, Prompt, and Predict: A Systematic Survey of Prompting Methods in Natural Language Processing, arXiv:2107.13586, 2021<br/>
-                        [Pu et al., 2021] Jie Pu, Yuguang Yang, Ruirui Li, Oguz Elibol, Jasha Droppo, Scaling Effect of Self-Supervised Speech Models, Interspeech, 2021<br/>
-                        [Peng et al., 2021] Puyuan Peng, David Harwath, Fast-Slow Transformer for Visually Grounding Speech, arXiv:2109.08186, 2021<br/>
-                        [Shor et al., 2020] Joel Shor, Aren Jansen, Ronnie Maor, Oran Lang, Omry Tuval, Felix de Chaumont Quitry, Marco Tagliasacchi, Ira Shavitt, Dotan Emanuel, Yinnon Haviv, Towards Learning a Universal Non-Semantic Representation of Speech, Interspeech, 2020<br/>
-                        [Shor et al., 2021] Joel Shor, Aren Jansen, Wei Han, Daniel Park, Yu Zhang, Universal Paralinguistic Speech Representations Using Self-Supervised Conformers, arXiv:2110.04621, 2021<br/>
-                        [Wu et al., 2021] Haibin Wu, Bo Zheng, Xu Li, Xixin Wu, Hung-yi Lee, Helen Meng, Characterizing the adversarial vulnerability of speech self-supervised learning, arXiv:2111.04330, 2021<br/>
-                        [Yang et al., 2021] Shu-wen Yang, Po-Han Chi, Yung-Sung Chuang, Cheng-I Jeff Lai, Kushal Lakhotia, Yist Y. Lin, Andy T. Liu, Jiatong Shi, Xuankai Chang, Guan-Ting Lin, Tzu-Hsien Huang, Wei-Cheng Tseng, Ko-tik Lee, Da-Rong Liu, Zili Huang, Shuyan Dong,  Shang-Wen Li, Shinji Watanabe, Abdelrahman Mohamed, Hung-yi Lee, SUPERB: Speech Processing Universal PERformance Benchmark, Interspeech, 2021<br/>
-                        [Yu et al., 2019] Jiahui Yu, Linjie Yang, Ning Xu, Jianchao Yang, Thomas Huang, Slimmable Neural Networks, ICLR, 2019<br/>
+                        [Ben Zaken et al., 2021] Elad Ben Zaken, and Shauli Ravfogel, Yoav Goldberg, BitFit: Simple
+                        Parameter-efficient Fine-tuning for Transformer-based Masked Language-model, arXiv:2106.10199,
+                        2021<br/>
+                        [Chang et al., 2021] Heng-Jui Chang, Shu-wen Yang, Hung-yi Lee, DistilHuBERT: Speech
+                        Representation Learning by Layer-wise Distillation of Hidden-unit BERT, arXiv:2110.01900,
+                        2021<br/>
+                        [Evain et al., 2021] Solene Evain, Ha Nguyen, Hang Le, Marcely Zanon Boito, Salima Mdhaffar,
+                        Sina Alisamir, Ziyi Tong, Natalia Tomashenko, Marco Dinarelli, Titouan Parcollet, Alexandre
+                        Allauzen, Yannick Esteve, Benjamin Lecouteux, Francois Portet, Solange Rossato, Fabien Ringeval,
+                        Didier Schwab, Laurent Besacier, LeBenchmark: A Reproducible Framework for Assessing
+                        Self-Supervised Representation Learning from Speech, Interspeech, 2021<br/>
+                        [Ganesh et al., 2021] Prakhar Ganesh, Yao Chen, Xin Lou, Mohammad Ali Khan, Yin Yang, Hassan
+                        Sajjad, Preslav Nakov, Deming Chen, Marianne Winslett, Compressing Large-Scale Transformer-Based
+                        Models: A Case Study on BERT, TACL, 2021<br/>
+                        [Guo et al., 2020] Demi Guo, Alexander M Rush, Yoon Kim, Parameter-efficient transfer learning
+                        with diff pruning, arXiv:2012.07463, 2020<br/>
+                        [Hsu et al., 2021] Wei-Ning Hsu, Anuroop Sriram, Alexei Baevski, Tatiana Likhomanenko, Qiantong
+                        Xu, Vineel Pratap, Jacob Kahn, Ann Lee, Ronan Collobert, Gabriel Synnaeve, Michael Auli, Robust
+                        wav2vec 2.0: Analyzing Domain Shift in Self-Supervised Pre-Training, Interspeech, 2021<br/>
+                        [Lai et al., 2021] Cheng-I Jeff Lai, Yang Zhang, Alexander H. Liu, Shiyu Chang, Yi-Lun Liao,
+                        Yung-Sung Chuang, Kaizhi Qian, Sameer Khurana, David D. Cox, James R. Glass, PARP: Prune, Adjust
+                        and Re-Prune for Self-Supervised Speech Recognition, arXiv:2106.05933, 2021<br/>
+                        [Liu et al., 2021] Pengfei Liu, Weizhe Yuan and Jinlan Fu, Zhengbao Jiang, Hiroaki Hayashi,
+                        Graham Neubig, Pre-train, Prompt, and Predict: A Systematic Survey of Prompting Methods in
+                        Natural Language Processing, arXiv:2107.13586, 2021<br/>
+                        [Pu et al., 2021] Jie Pu, Yuguang Yang, Ruirui Li, Oguz Elibol, Jasha Droppo, Scaling Effect of
+                        Self-Supervised Speech Models, Interspeech, 2021<br/>
+                        [Peng et al., 2021] Puyuan Peng, David Harwath, Fast-Slow Transformer for Visually Grounding
+                        Speech, arXiv:2109.08186, 2021<br/>
+                        [Shor et al., 2020] Joel Shor, Aren Jansen, Ronnie Maor, Oran Lang, Omry Tuval, Felix de
+                        Chaumont Quitry, Marco Tagliasacchi, Ira Shavitt, Dotan Emanuel, Yinnon Haviv, Towards Learning
+                        a Universal Non-Semantic Representation of Speech, Interspeech, 2020<br/>
+                        [Shor et al., 2021] Joel Shor, Aren Jansen, Wei Han, Daniel Park, Yu Zhang, Universal
+                        Paralinguistic Speech Representations Using Self-Supervised Conformers, arXiv:2110.04621,
+                        2021<br/>
+                        [Wu et al., 2021] Haibin Wu, Bo Zheng, Xu Li, Xixin Wu, Hung-yi Lee, Helen Meng, Characterizing
+                        the adversarial vulnerability of speech self-supervised learning, arXiv:2111.04330, 2021<br/>
+                        [Yang et al., 2021] Shu-wen Yang, Po-Han Chi, Yung-Sung Chuang, Cheng-I Jeff Lai, Kushal
+                        Lakhotia, Yist Y. Lin, Andy T. Liu, Jiatong Shi, Xuankai Chang, Guan-Ting Lin, Tzu-Hsien Huang,
+                        Wei-Cheng Tseng, Ko-tik Lee, Da-Rong Liu, Zili Huang, Shuyan Dong, Shang-Wen Li, Shinji
+                        Watanabe, Abdelrahman Mohamed, Hung-yi Lee, SUPERB: Speech Processing Universal PERformance
+                        Benchmark, Interspeech, 2021<br/>
+                        [Yu et al., 2019] Jiahui Yu, Linjie Yang, Ning Xu, Jianchao Yang, Thomas Huang, Slimmable Neural
+                        Networks, ICLR, 2019<br/>
                         <br/>
                     </p>
                 </section>
