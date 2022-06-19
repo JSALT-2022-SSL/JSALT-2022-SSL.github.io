@@ -19,17 +19,31 @@ class App extends React.Component {
 
     constructor(props) {
         super(props);
+        let selected
+        switch (window.location.pathname.split('/').pop()) {
+            case 'intro':
+                selected = 'intro'
+                break;
+            case 'member':
+                selected = 'member'
+                break;
+            case 'progress':
+                selected = 'progress'
+                break;
+            default:
+                selected = 'intro'
+        }
         this.state = {
-            selected: 'intro'
+            selected: selected
         };
-        this.handleClick = this.handleClick.bind(this)
+        // this.handleClick = this.handleClick.bind(this)
         console.log(this.props.match)
     }
 
 
-    handleClick(item) {
-        this.setState({'selected': item});
-    }
+    // handleClick(item) {
+    //     this.setState({'selected': item});
+    // }
 
     componentWillMount() {
         appendScript("assets/js/jquery.min.js");
@@ -65,14 +79,14 @@ class App extends React.Component {
                 <nav id="nav">
                     <ul className="links">
                         <li className={(this.state.selected === 'intro' ? 'active' : '')}><a
-                            onClick={() => this.handleClick('intro')} href={'#intro'}>Intro</a></li>
+                            href={'/intro'}>Intro</a></li>
                         <li>
                             <a href="https://twitter.com/JSALT_pretrain">News</a>
                         </li>
                         <li className={(this.state.selected === 'progress' ? 'active' : '')}><a
-                            onClick={() => this.handleClick('progress')} href={'#progress'}>Progress</a></li>
+                            href={'/progress'}>Progress</a></li>
                         <li className={(this.state.selected === 'member' ? 'active' : '')}><a
-                            onClick={() => this.handleClick('member')} href={'#member'}>Member</a></li>
+                            href={'/member'}>Member</a></li>
 
                     </ul>
                     <ul className="icons">

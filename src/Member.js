@@ -14,7 +14,7 @@ class MemberPage extends React.Component {
                         <div className="box alt">
                             <div className="row gtr-50 gtr-uniform aln-baseline">
                                 <div className="col-4">
-                                    <span className="image fit"><img src="https://i.imgur.com/wwf6nG1.png"/></span>
+                                    <span className="image fit"><img src="https://raw.githubusercontent.com/JSALT-2022-SSL/JSALT-2022-SSL.github.io/gh-pages/assets/member/wwf6nG1.png"/></span>
                                     Shang-Wen (Daniel) Li (Meta)
                                 </div>
                             </div>
@@ -23,23 +23,23 @@ class MemberPage extends React.Component {
                         <div className="box alt">
                             <div className="row gtr-50 gtr-uniform aln-baseline">
                                 <div className="col-4">
-                                    <span className="image fit"><img src="https://i.imgur.com/RJZ73pX.jpg"/></span>
+                                    <span className="image fit"><img src="https://raw.githubusercontent.com/JSALT-2022-SSL/JSALT-2022-SSL.github.io/gh-pages/assets/member/RJZ73pX.jpg"/></span>
                                     Kai-Wei Chang (NTU)
                                 </div>
                                 <div className="col-4">
-                                    <span className="image fit"><img src="https://i.imgur.com/L06abQG.jpg"/></span>
+                                    <span className="image fit"><img src="https://raw.githubusercontent.com/JSALT-2022-SSL/JSALT-2022-SSL.github.io/gh-pages/assets/member/L06abQG.jpg"/></span>
                                     Zih-Ching Chen (NTU)
                                 </div>
                                 <div className="col-4">
-                                    <span className="image fit"><img src="https://i.imgur.com/Qccd9Jq.png"/></span>
+                                    <span className="image fit"><img src="https://raw.githubusercontent.com/JSALT-2022-SSL/JSALT-2022-SSL.github.io/gh-pages/assets/member/Qccd9Jq.png"/></span>
                                     Chin-Lun Fu (NTU)
                                 </div>
                                 <div className="col-4"><span className="image fit"><img
-                                    src="https://i.imgur.com/fwjSxXS.png"/></span>
+                                    src="https://raw.githubusercontent.com/JSALT-2022-SSL/JSALT-2022-SSL.github.io/gh-pages/assets/member/fwjSxXS.png"/></span>
                                     Fabian Ritter (NUS)
                                 </div>
                                 <div className="col-4"><span className="image fit"><img
-                                    src="https://i.imgur.com/Z4CUqS4.jpg"/></span>
+                                    src="https://raw.githubusercontent.com/JSALT-2022-SSL/JSALT-2022-SSL.github.io/gh-pages/assets/member/Z4CUqS4.jpg"/></span>
                                     Hua Shen (PennState)
                                 </div>
                             </div>
@@ -70,15 +70,15 @@ class MemberPage extends React.Component {
                         <div className="box alt">
                             <div className="row gtr-50 gtr-uniform aln-baseline">
                                 <div className="col-4">
-                                    <span className="image fit"><img src="https://i.imgur.com/K8VbLUr.png"/></span>
+                                    <span className="image fit"><img src="https://raw.githubusercontent.com/JSALT-2022-SSL/JSALT-2022-SSL.github.io/gh-pages/assets/member/K8VbLUr.png"/></span>
                                     Hao Tang (University of Edinburgh)
                                 </div>
                                 <div className="col-4">
-                                    <span className="image fit"><img src="https://i.imgur.com/tjBRc4C.png"/></span>
+                                    <span className="image fit"><img src="https://raw.githubusercontent.com/JSALT-2022-SSL/JSALT-2022-SSL.github.io/gh-pages/assets/member/tjBRc4C.png"/></span>
                                     Lucas Ondel (SONOS)
                                 </div>
                                 <div className="col-4">
-                                    <span className="image fit"><img src="https://i.imgur.com/YUvdhEN.png"/></span>
+                                    <span className="image fit"><img src="https://raw.githubusercontent.com/JSALT-2022-SSL/JSALT-2022-SSL.github.io/gh-pages/assets/member/YUvdhEN.png"/></span>
                                     Diego Aguirre (UTEP)
                                 </div>
                             </div>
@@ -87,7 +87,7 @@ class MemberPage extends React.Component {
                         <div className="box alt">
                             <div className="row gtr-50 gtr-uniform aln-baseline">
                                 <div className="col-4">
-                                    <span className="image fit"><img src="https://i.imgur.com/ECVhav3.jpg"
+                                    <span className="image fit"><img src="https://raw.githubusercontent.com/JSALT-2022-SSL/JSALT-2022-SSL.github.io/gh-pages/assets/member/ECVhav3.jpg"
                                     /></span>
                                     Tzu-Quan (Jack) Lin (NTU)
                                 </div>
@@ -122,11 +122,11 @@ class MemberPage extends React.Component {
                         <div className="box alt">
                             <div className="row gtr-50 gtr-uniform aln-baseline">
                                 <div className="col-4">
-                                    <span className="image fit"><img src="https://i.imgur.com/KqKocFG.jpg"/></span>
+                                    <span className="image fit"><img src="https://raw.githubusercontent.com/JSALT-2022-SSL/JSALT-2022-SSL.github.io/gh-pages/assets/member/KqKocFG.jpg"/></span>
                                     Hung-yi Lee (NTU)
                                 </div>
                                 <div className="col-4">
-                                    <span className="image fit"><img src="https://i.imgur.com/KeNuxQC.png"/></span>
+                                    <span className="image fit"><img src="https://raw.githubusercontent.com/JSALT-2022-SSL/JSALT-2022-SSL.github.io/gh-pages/assets/member/KeNuxQC.png"/></span>
                                     Yu Zhang (Google)
                                 </div>
                             </div>
@@ -135,12 +135,12 @@ class MemberPage extends React.Component {
                         <div className="box alt">
                             <div className="row gtr-50 gtr-uniform aln-baseline">
                                 <div className="col-4">
-                                    <span className="image fit"><img src="https://i.imgur.com/a4tcdMD.png"
+                                    <span className="image fit"><img src="https://raw.githubusercontent.com/JSALT-2022-SSL/JSALT-2022-SSL.github.io/gh-pages/assets/member/a4tcdMD.png"
                                     /></span>
                                     Kuan Po Huang (NTU)
                                 </div>
                                 <div className="col-4">
-                                    <span className="image fit"><img src="https://i.imgur.com/J1gz1pI.png"
+                                    <span className="image fit"><img src="https://raw.githubusercontent.com/JSALT-2022-SSL/JSALT-2022-SSL.github.io/gh-pages/assets/member/J1gz1pI.png"
                                     /></span>
                                     Fabian Ritter (NUS)
                                 </div>
@@ -166,7 +166,7 @@ class MemberPage extends React.Component {
                         <div className="box alt">
                             <div className="row gtr-50 gtr-uniform aln-baseline">
                                 <div className="col-4">
-                                    <span className="image fit"><img src="https://i.imgur.com/VsuB2vg.png"/></span>
+                                    <span className="image fit"><img src="https://raw.githubusercontent.com/JSALT-2022-SSL/JSALT-2022-SSL.github.io/gh-pages/assets/member/VsuB2vg.png"/></span>
                                     David Harwath (UT)
                                 </div>
                             </div>
@@ -175,27 +175,27 @@ class MemberPage extends React.Component {
                         <div className="box alt">
                             <div className="row gtr-50 gtr-uniform aln-baseline">
                                 <div className="col-4">
-                                    <span className="image fit"><img src="https://i.imgur.com/4dWYMLQ.png"
+                                    <span className="image fit"><img src="https://raw.githubusercontent.com/JSALT-2022-SSL/JSALT-2022-SSL.github.io/gh-pages/assets/member/4dWYMLQ.png"
                                     /></span>
                                     Virginia Layne Berry (UT)
                                 </div>
                                 <div className="col-4">
-                                    <span className="image fit"><img src="https://i.imgur.com/T5tGHm0.png"
+                                    <span className="image fit"><img src="https://raw.githubusercontent.com/JSALT-2022-SSL/JSALT-2022-SSL.github.io/gh-pages/assets/member/T5tGHm0.png"
                                     /></span>
                                     Heng-Jui (Harry) Chang (MIT)
                                 </div>
                                 <div className="col-4">
-                                    <span className="image fit"><img src="https://i.imgur.com/lymhP1B.jpg"
+                                    <span className="image fit"><img src="https://raw.githubusercontent.com/JSALT-2022-SSL/JSALT-2022-SSL.github.io/gh-pages/assets/member/lymhP1B.jpg"
                                     /></span>
                                     Yi-Jen (Ian) Shih (NTU)
                                 </div>
                                 <div className="col-4">
-                                    <span className="image fit"><img src="https://i.imgur.com/Y2WHR9T.jpg"
+                                    <span className="image fit"><img src="https://raw.githubusercontent.com/JSALT-2022-SSL/JSALT-2022-SSL.github.io/gh-pages/assets/member/Y2WHR9T.jpg"
                                     /></span>
                                     Hsuan-Fu (Jeff) Wang (NTU)
                                 </div>
                                 <div className="col-4">
-                                    <span className="image fit"><img src="https://i.imgur.com/1OXSbUZ.png"
+                                    <span className="image fit"><img src="https://raw.githubusercontent.com/JSALT-2022-SSL/JSALT-2022-SSL.github.io/gh-pages/assets/member/1OXSbUZ.png"
                                     /></span>
                                     Elizabeth Boroda (JHU)
                                 </div>
@@ -221,11 +221,11 @@ class MemberPage extends React.Component {
                         <div className="box alt">
                             <div className="row gtr-50 gtr-uniform aln-baseline">
                                 <div className="col-4">
-                                    <span className="image fit"><img src="https://i.imgur.com/ps0LVuE.png"/></span>
+                                    <span className="image fit"><img src="https://raw.githubusercontent.com/JSALT-2022-SSL/JSALT-2022-SSL.github.io/gh-pages/assets/member/ps0LVuE.png"/></span>
                                     Ann Lee (Meta)
                                 </div>
                                 <div className="col-4">
-                                    <span className="image fit"><img src="https://i.imgur.com/PtKRsMw.png"/></span>
+                                    <span className="image fit"><img src="https://raw.githubusercontent.com/JSALT-2022-SSL/JSALT-2022-SSL.github.io/gh-pages/assets/member/PtKRsMw.png"/></span>
                                     Paola Garcia (JHU)
                                 </div>
                             </div>
@@ -234,22 +234,22 @@ class MemberPage extends React.Component {
                         <div className="box alt">
                             <div className="row gtr-50 gtr-uniform aln-baseline">
                                 <div className="col-4">
-                                    <span className="image fit"><img src="https://i.imgur.com/PtCCq5r.png"
+                                    <span className="image fit"><img src="https://raw.githubusercontent.com/JSALT-2022-SSL/JSALT-2022-SSL.github.io/gh-pages/assets/member/PtCCq5r.png"
                                     /></span>
                                     Jiatong Shi (CMU)
                                 </div>
                                 <div className="col-4">
-                                    <span className="image fit"><img src="https://i.imgur.com/w9G0HgS.png"
+                                    <span className="image fit"><img src="https://raw.githubusercontent.com/JSALT-2022-SSL/JSALT-2022-SSL.github.io/gh-pages/assets/member/w9G0HgS.png"
                                     /></span>
                                     Dongji Gao (JHU)
                                 </div>
                                 <div className="col-4">
-                                    <span className="image fit"><img src="https://i.imgur.com/IPxTFVu.png"
+                                    <span className="image fit"><img src="https://raw.githubusercontent.com/JSALT-2022-SSL/JSALT-2022-SSL.github.io/gh-pages/assets/member/IPxTFVu.png"
                                     /></span>
                                     Yen Meng (NTU)
                                 </div>
                                 <div className="col-4">
-                                    <span className="image fit"><img src="https://i.imgur.com/WCn9C61.png"
+                                    <span className="image fit"><img src="https://raw.githubusercontent.com/JSALT-2022-SSL/JSALT-2022-SSL.github.io/gh-pages/assets/member/WCn9C61.png"
                                     /></span>
                                     Hsuan-Jui (Ray) Chen (NTU)
                                 </div>
@@ -272,7 +272,7 @@ class MemberPage extends React.Component {
                         <div className="box alt">
                             <div className="row gtr-50 gtr-uniform aln-baseline">
                                 <div className="col-4">
-                                    <span className="image fit"><img src="https://i.imgur.com/lDLP413.png"/></span>
+                                    <span className="image fit"><img src="https://raw.githubusercontent.com/JSALT-2022-SSL/JSALT-2022-SSL.github.io/gh-pages/assets/member/lDLP413.png"/></span>
                                     Nigel Ward (UTEP)
                                 </div>
                             </div>
@@ -281,17 +281,17 @@ class MemberPage extends React.Component {
                         <div className="box alt">
                             <div className="row gtr-50 gtr-uniform aln-baseline">
                                 <div className="col-4">
-                                    <span className="image fit"><img src="https://i.imgur.com/bV9iZX6.jpg"
+                                    <span className="image fit"><img src="https://raw.githubusercontent.com/JSALT-2022-SSL/JSALT-2022-SSL.github.io/gh-pages/assets/member/bV9iZX6.jpg"
                                     /></span>
                                     Chi-Luen (Leo) Feng (NTU)
                                 </div>
                                 <div className="col-4">
-                                    <span className="image fit"><img src="https://i.imgur.com/2aBDIDT.png"
+                                    <span className="image fit"><img src="https://raw.githubusercontent.com/JSALT-2022-SSL/JSALT-2022-SSL.github.io/gh-pages/assets/member/2aBDIDT.png"
                                     /></span>
                                     Guan-Ting (Daniel) Lin (NTU)
                                 </div>
                                 <div className="col-4">
-                                    <span className="image fit"><img src="https://i.imgur.com/hSf9HPR.jpg"
+                                    <span className="image fit"><img src="https://raw.githubusercontent.com/JSALT-2022-SSL/JSALT-2022-SSL.github.io/gh-pages/assets/member/hSf9HPR.jpg"
                                     /></span>
                                     Samuel Miller (University of Maryland)
                                 </div>
@@ -323,11 +323,11 @@ class MemberPage extends React.Component {
                         <div className="box alt">
                             <div className="row gtr-50 gtr-uniform aln-baseline">
                                 <div className="col-4">
-                                    <span className="image fit"><img src="https://i.imgur.com/GtYf6PH.png"/></span>
+                                    <span className="image fit"><img src="https://raw.githubusercontent.com/JSALT-2022-SSL/JSALT-2022-SSL.github.io/gh-pages/assets/member/GtYf6PH.png"/></span>
                                     Shu-wen (Leo) Yang (NTU)
                                 </div>
                                 <div className="col-4">
-                                    <span className="image fit"><img src="https://i.imgur.com/XX1SIEY.jpg"/></span>
+                                    <span className="image fit"><img src="https://raw.githubusercontent.com/JSALT-2022-SSL/JSALT-2022-SSL.github.io/gh-pages/assets/member/XX1SIEY.jpg"/></span>
                                     Andy Liu (NTU)
                                 </div>
                             </div>
@@ -348,14 +348,11 @@ class MemberPage extends React.Component {
                         </div>
                     </article>
                     <article>
-                        <header>
-                            <h2>JSALT 2022 - Leveraging Pre-training Models for Speech Processing</h2>
-                        </header>
                         <h3>Team lead</h3>
                         <div className="box alt">
                             <div className="row gtr-50 gtr-uniform aln-baseline">
                                 <div className="col-4">
-                                    <span className="image fit"><img src="https://i.imgur.com/KqKocFG.jpg"/></span>
+                                    <span className="image fit"><img src="https://raw.githubusercontent.com/JSALT-2022-SSL/JSALT-2022-SSL.github.io/gh-pages/assets/member/KqKocFG.jpg"/></span>
                                     Hung-yi Lee (NTU)
                                 </div>
                             </div>
@@ -364,11 +361,11 @@ class MemberPage extends React.Component {
                         <div className="box alt">
                             <div className="row gtr-50 gtr-uniform aln-baseline">
                                 <div className="col-4">
-                                    <span className="image fit"><img src="https://i.imgur.com/D9qYig7.png"/></span>
+                                    <span className="image fit"><img src="https://raw.githubusercontent.com/JSALT-2022-SSL/JSALT-2022-SSL.github.io/gh-pages/assets/member/D9qYig7.png"/></span>
                                     Shinji Watanabe (CMU)
                                 </div>
                                 <div className="col-4">
-                                    <span className="image fit"><img src="https://i.imgur.com/wPYflQb.png"/></span>
+                                    <span className="image fit"><img src="https://raw.githubusercontent.com/JSALT-2022-SSL/JSALT-2022-SSL.github.io/gh-pages/assets/member/wPYflQb.png"/></span>
                                     Bhuvana Ramabhadran (Google)
                                 </div>
                             </div>
