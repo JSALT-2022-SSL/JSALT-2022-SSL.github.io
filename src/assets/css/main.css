@@ -2635,9 +2635,9 @@ input[type="radio"]:focus + label:before {
 }
 
 .image.fit img {
-
+    object-position: center;
     object-fit: scale-down;
-    width: 100px;
+    width: 100%;
     height: 100px;
 }
 
