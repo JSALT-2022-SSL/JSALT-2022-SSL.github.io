@@ -328,7 +328,7 @@ class MemberPage extends React.Component {
                                 </div>
                                 <div className="col-4">
                                     <span className="image fit"><img src="https://raw.githubusercontent.com/JSALT-2022-SSL/JSALT-2022-SSL.github.io/gh-pages/assets/member/XX1SIEY.jpg"/></span>
-                                    Andy Liu (NTU)
+                                    Andy T. Liu (NTU)
                                 </div>
                             </div>
                         </div>
