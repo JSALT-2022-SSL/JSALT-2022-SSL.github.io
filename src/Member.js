@@ -135,7 +135,7 @@ class MemberPage extends React.Component {
                         <div className="box alt">
                             <div className="row gtr-50 gtr-uniform aln-baseline">
                                 <div className="col-4">
-                                    <span className="image fit"><img src="https://raw.githubusercontent.com/JSALT-2022-SSL/JSALT-2022-SSL.github.io/gh-pages/assets/member/a4tcdMD.png"
+                                    <span className="image fit"><img src="https://raw.githubusercontent.com/JSALT-2022-SSL/JSALT-2022-SSL.github.io/gh-pages/assets/member/a4tcdMD.jpg"
                                     /></span>
                                     Kuan Po Huang (NTU)
                                 </div>
