@@ -92,6 +92,8 @@ class MemberPage extends React.Component {
                                     Tzu-Quan (Jack) Lin (NTU)
                                 </div>
                                 <div className="col-4">
+                                     <span className="image fit"><img src="https://raw.githubusercontent.com/JSALT-2022-SSL/JSALT-2022-SSL.github.io/gh-pages/assets/member/210503N.png"
+                                    /></span>
                                     Léa-Marie Lam-Yee-Mui (LISN)
                                 </div>
                             </div>
