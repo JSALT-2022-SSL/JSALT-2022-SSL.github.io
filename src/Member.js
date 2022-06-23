@@ -182,7 +182,7 @@ class MemberPage extends React.Component {
                                     Virginia Layne Berry (UT)
                                 </div>
                                 <div className="col-4">
-                                    <span className="image fit"><img src="https://raw.githubusercontent.com/JSALT-2022-SSL/JSALT-2022-SSL.github.io/gh-pages/assets/member/T5tGHm0.png"
+                                    <span className="image fit"><img src="https://raw.githubusercontent.com/JSALT-2022-SSL/JSALT-2022-SSL.github.io/gh-pages/assets/member/T5tGHm0.jpg"
                                     /></span>
                                     Heng-Jui (Harry) Chang (MIT)
                                 </div>
