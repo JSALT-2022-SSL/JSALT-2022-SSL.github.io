@@ -102,7 +102,7 @@ class MemberPage extends React.Component {
                         <div className="box alt">
                             <div className="row gtr-50 gtr-uniform aln-baseline">
                                 <div className="col-4">
-                                    Guang-Ming Chen (NTU)
+                                    Kaung-Ming Chen (NTU)
                                 </div>
                                 <div className="col-4">
                                     Chun-Yao Chang (NTU)
