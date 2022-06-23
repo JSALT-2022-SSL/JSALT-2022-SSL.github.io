@@ -367,6 +367,10 @@ class MemberPage extends React.Component {
                                     <span className="image fit"><img src="https://raw.githubusercontent.com/JSALT-2022-SSL/JSALT-2022-SSL.github.io/gh-pages/assets/member/wPYflQb.png"/></span>
                                     Bhuvana Ramabhadran (Google)
                                 </div>
+                                <div className="col-4">
+                                    <span className="image fit"><img src="https://raw.githubusercontent.com/JSALT-2022-SSL/JSALT-2022-SSL.github.io/gh-pages/assets/member/e8f1Dfs.jpg"/></span>
+                                    Nancy Chen (A*STAR)
+                                </div>
                             </div>
                         </div>
                     </article>
