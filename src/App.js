@@ -83,6 +83,9 @@ class App extends React.Component {
                         <li>
                             <a href="https://twitter.com/JSALT_pretrain">News</a>
                         </li>
+                        <li>
+                            <a href="https://docs.google.com/presentation/d/1ZpAX0cwZlrVn8ynMUOqUh1DqnJzrChvlTR9X2CjzxuY/edit?usp=sharing">Report</a>
+                        </li>
                         <li className={(this.state.selected === 'progress' ? 'active' : '')}><a
                             href={'/progress'}>Progress</a></li>
                         <li className={(this.state.selected === 'member' ? 'active' : '')}><a
