@@ -84,7 +84,7 @@ class App extends React.Component {
                             <a href="https://twitter.com/JSALT_pretrain">News</a>
                         </li>
                         <li>
-                            <a href="https://docs.google.com/presentation/d/1ZpAX0cwZlrVn8ynMUOqUh1DqnJzrChvlTR9X2CjzxuY/edit?usp=sharing">Report</a>
+                            <a href="https://github.com/JSALT-2022-SSL/JSALT-2022-SSL.github.io/raw/gh-pages/report/%20JSALT%20Progress%20Report%20Week%201%20(Read%20only).pdf">Report</a>
                         </li>
                         <li className={(this.state.selected === 'progress' ? 'active' : '')}><a
                             href={'/progress'}>Progress</a></li>
