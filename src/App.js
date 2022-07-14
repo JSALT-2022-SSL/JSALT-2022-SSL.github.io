@@ -5,6 +5,7 @@ import Video from './assets/videos/bg.mp4';
 import {IntroPage} from "./Intro";
 import {ProgressPage} from "./Progress";
 import {MemberPage} from "./Member";
+import {ReportPage} from "./Report";
 
 export const appendScript = (scriptToAppend) => {
     const head = document.querySelector("head");
@@ -20,6 +21,7 @@ class App extends React.Component {
     constructor(props) {
         super(props);
         let selected
+        console.log(window.location.pathname.split('/').pop())
         switch (window.location.pathname.split('/').pop()) {
             case 'intro':
                 selected = 'intro'
@@ -29,6 +31,9 @@ class App extends React.Component {
                 break;
             case 'progress':
                 selected = 'progress'
+                break;
+            case 'reports':
+                selected = 'reports'
                 break;
             default:
                 selected = 'intro'
@@ -83,6 +88,8 @@ class App extends React.Component {
                         <li>
                             <a href="https://twitter.com/JSALT_pretrain">News</a>
                         </li>
+                        <li className={(this.state.selected === 'reports' ? 'active' : '')}><a
+                            href={'/reports'}>Report</a></li>
                         <li className={(this.state.selected === 'progress' ? 'active' : '')}><a
                             href={'/progress'}>Progress</a></li>
                         <li className={(this.state.selected === 'member' ? 'active' : '')}><a
@@ -113,6 +120,7 @@ class App extends React.Component {
                     {
                         'intro': <IntroPage/>,
                         'progress': <ProgressPage/>,
+                        'reports': <ReportPage/>,
                         'member': <MemberPage/>
                     }[this.state.selected]
                 }
