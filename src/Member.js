@@ -107,6 +107,9 @@ class MemberPage extends React.Component {
                                 <div className="col-4">
                                     Chun-Yao Chang (NTU)
                                 </div>
+				<div className="col-4">
+				    Tsung-Huan Yang
+				</div>
                                 <div className="col-4">
                                     Tzu-Hsun Feng (NTU)
                                 </div>
