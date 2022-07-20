@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import './index.css';
 
 class ReportPage extends React.Component {
@@ -17,6 +17,12 @@ class ReportPage extends React.Component {
                             </tr>
                             </thead>
                             <tbody>
+                            <tr>
+                                <td>Week 3</td>
+                                <td><a
+                                    href="https://github.com/JSALT-2022-SSL/JSALT-2022-SSL.github.io/raw/main/public/report/weekly%20report/JSALT-Progress-Report-Week-3.pdf">PDF</a>
+                                </td>
+                            </tr>
                             <tr>
                                 <td>Week 2</td>
                                 <td><a
@@ -241,4 +247,5 @@ class ReportPage extends React.Component {
     }
 }
 
-export {ReportPage}
+export { ReportPage };
+

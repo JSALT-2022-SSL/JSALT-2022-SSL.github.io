@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import './index.css';
 
 class MemberPage extends React.Component {
@@ -156,7 +156,7 @@ class MemberPage extends React.Component {
                             <div className="row gtr-50 gtr-uniform aln-baseline">
                                 <div className="col-4">
                                     <span className="image fit"><img
-                                        src="https://raw.githubusercontent.com/JSALT-2022-SSL/JSALT-2022-SSL.github.io/gh-pages/assets/member/RJZ73pX.jpg"/></span>
+                                        src="https://i.imgur.com/br3r7pO.jpg"/></span>
                                     Kai-Wei Chang (NTU)
                                 </div>
                                 <div className="col-4">
@@ -610,4 +610,5 @@ class MemberPage extends React.Component {
     }
 }
 
-export {MemberPage}
+export { MemberPage };
+
