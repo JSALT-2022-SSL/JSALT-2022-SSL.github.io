@@ -13,7 +13,7 @@ class MemberPage extends React.Component {
                         <h3>Team Leader </h3>
                         <div className="box alt">
                             <div className="row gtr-50 gtr-uniform aln-baseline">
-                                <div className="col-">
+                                <div className="col-12">
                                     <span className="image fit"><img
                                         src="https://raw.githubusercontent.com/JSALT-2022-SSL/JSALT-2022-SSL.github.io/gh-pages/assets/member/KqKocFG.jpg"/></span>
                                     Hung-yi Lee
@@ -185,25 +185,25 @@ class MemberPage extends React.Component {
                             <div className="row gtr-50 gtr-uniform aln-baseline">
                                 <div className="col-4">
                                     <span className="image fit">
-                                        <img src=""></img>
+                                        <img src="https://i.imgur.com/hvx6KU5.jpg"></img>
                                     </span>
                                     Yu-Kai Wang (NTU)
                                 </div>
                                 <div className="col-4">
                                     <span className="image fit">
-                                        <img src=""></img>
+                                        <img src="https://i.imgur.com/33dfprw.jpg"></img>
                                     </span>
                                     Shih-Ju Hsu (NTU)
                                 </div>
                                 <div className="col-4">
                                     <span className="image fit">
-                                        <img src=""></img>
+                                        <img src="https://i.imgur.com/rIc0Ino.png"></img>
                                     </span>
-                                    Iu-thing Kang (NTU)
+                                    Lu-thing Kang (NTU)
                                 </div>
                                 <div className="col-4">
                                     <span className="image fit">
-                                        <img src=""></img>
+                                        
                                     </span>
                                     Chih Ying Liu (NTU)
                                 </div>
@@ -256,25 +256,25 @@ class MemberPage extends React.Component {
                             <div className="row gtr-50 gtr-uniform aln-baseline">
                                 <div className="col-4">
                                     <span className="image fit">
-                                        <img src=""></img>
+                                        
                                     </span>
                                     Kaung-Ming Chen (NTU)
                                 </div>
                                 <div className="col-4">
                                     <span className="image fit">
-                                        <img src=""></img>
+                                        
                                     </span>
                                     Chun-Yao Chang (NTU)
                                 </div>
                                 <div className="col-4">
                                     <span className="image fit">
-                                        <img src=""></img>
+                                        
                                     </span>
                                     Tsung-Huan Yang (NTU)
                                 </div>
                                 <div className="col-4">
                                     <span className="image fit">
-                                        <img src=""></img>
+                                        
                                     </span>
                                     Tzu-Hsun Feng (NTU)
                                 </div>
@@ -322,13 +322,13 @@ class MemberPage extends React.Component {
                             <div className="row gtr-50 gtr-uniform aln-baseline">
                                 <div className="col-4">
                                     <span className="image fit">
-                                        <img src=""></img>
+                                        
                                     </span>
                                     Yu-Kuan Fu (NTU)
                                 </div>
                                 <div className="col-4">
                                     <span className="image fit">
-                                        <img src=""></img>
+                                        
                                     </span>
                                     Tsu-Yuan Hsu (NTU)
                                 </div>
@@ -389,13 +389,13 @@ class MemberPage extends React.Component {
                             <div className="row gtr-50 gtr-uniform aln-baseline">
                                 <div className="col-4">
                                     <span className="image fit">
-                                        <img src=""></img>
+                                        
                                     </span>
                                     Puyuan (Jasen) Peng (UT)
                                 </div>
                                 <div className="col-4">
                                     <span className="image fit">
-                                        <img src=""></img>
+                                        
                                     </span>
                                     Vanya Cohen (UT)
                                 </div>
@@ -455,7 +455,7 @@ class MemberPage extends React.Component {
                             <div className="row gtr-50 gtr-uniform aln-baseline">
                                 <div className="col-4">
                                     <span className="image fit">
-                                        <img src=""></img>
+                                        <img src="https://raw.githubusercontent.com/JSALT-2022-SSL/JSALT-2022-SSL.github.io/gh-pages/assets/member/XX1SIEY.jpg"></img>
                                     </span>
                                     Andy T. Liu (NTU)
                                 </div>
@@ -504,25 +504,25 @@ class MemberPage extends React.Component {
                             <div className="row gtr-50 gtr-uniform aln-baseline">
                                 <div className="col-4">
                                     <span className="image fit">
-                                        <img src=""></img>
+                                        
                                     </span>
                                     Wei Ping Huang (NTU)
                                 </div>
                                 <div className="col-4">
                                     <span className="image fit">
-                                        <img src=""></img>
+                                        
                                     </span>
                                     Yuan Tseng (Roger) (NTU)
                                 </div>
                                 <div className="col-4">
                                     <span className="image fit">
-                                        <img src=""></img>
+                                        
                                     </span>
                                     Tzu-Han (Hank) Lin (NTU)
                                 </div>
                                 <div className="col-4">
                                     <span className="image fit">
-                                        <img src=""></img>
+                                        
                                     </span>
                                     Chen An Li (NTU)
                                 </div>
@@ -553,19 +553,19 @@ class MemberPage extends React.Component {
                             <div className="row gtr-50 gtr-uniform aln-baseline">
                                 <div className="col-4">
                                     <span className="image fit">
-                                        <img src=""></img>
+                                        
                                     </span>
                                     Heng-Jui (Harry) Chang (MIT)
                                 </div>
                                 <div className="col-4">
                                     <span className="image fit">
-                                        <img src=""></img>
+                                        
                                     </span>
                                     Haibin Wu (NTU)
                                 </div>
                                 <div className="col-4">
                                     <span className="image fit">
-                                        <img src=""></img>
+                                        
                                     </span>
                                     Cheng Liang (NTU)
                                 </div>
@@ -575,7 +575,7 @@ class MemberPage extends React.Component {
                     <article>
                         <h3>Team lead</h3>
                         <div className="box alt">
-                            <div className="row gtr-50 gtr-uniform aln-baseline">
+                            <div className="row gtr-50 gtr-uniform aln-baseline align-center">
                                 <div className="col-4">
                                     <span className="image fit"><img
                                         src="https://raw.githubusercontent.com/JSALT-2022-SSL/JSALT-2022-SSL.github.io/gh-pages/assets/member/KqKocFG.jpg"/></span>
