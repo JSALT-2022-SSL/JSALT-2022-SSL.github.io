@@ -90,8 +90,8 @@ class App extends React.Component {
                         </li>
                         <li className={(this.state.selected === 'reports' ? 'active' : '')}><a
                             href={'/reports'}>Report</a></li>
-                        <li className={(this.state.selected === 'progress' ? 'active' : '')}><a
-                            href={'/progress'}>Progress</a></li>
+                        {/*<li className={(this.state.selected === 'progress' ? 'active' : '')}><a*/}
+                        {/*    href={'/progress'}>Progress</a></li>*/}
                         <li className={(this.state.selected === 'member' ? 'active' : '')}><a
                             href={'/member'}>Member</a></li>
 
