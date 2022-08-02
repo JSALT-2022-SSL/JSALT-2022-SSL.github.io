@@ -203,7 +203,7 @@ class MemberPage extends React.Component {
                                 </div>
                                 <div className="col-4">
                                     <span className="image fit">
-                                        
+                                        <img src="https://i.imgur.com/q8CjPwy.png"></img>
                                     </span>
                                     Chih Ying Liu (NTU)
                                 </div>
