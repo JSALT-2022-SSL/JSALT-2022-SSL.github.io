@@ -16,7 +16,19 @@ class ReportPage extends React.Component {
                                 <th>Link</th>
                             </tr>
                             </thead>
+                            <tr>
+                                <td>Closing</td>
+                                <td><a
+                                    href="https://github.com/JSALT-2022-SSL/JSALT-2022-SSL.github.io/raw/main/public/report/closing/Pre-training-Team-Closing-Day.pdf">PDF</a>
+                                </td>
+                            </tr>
                             <tbody>
+                            <tr>
+                                <td>Week 4</td>
+                                <td><a
+                                    href="https://github.com/JSALT-2022-SSL/JSALT-2022-SSL.github.io/raw/main/public/report/weekly%20report/JSALT-Progress-Report-Week-4.pdf">PDF</a>
+                                </td>
+                            </tr>
                             <tr>
                                 <td>Week 3</td>
                                 <td><a

@@ -154,6 +154,13 @@ class IntroPage extends React.Component {
                         <br/>
                     </p>
                 </section>
+                <section className="post">
+                    {/*<header>*/}
+                    {/*    <h2>Acknowledgement</h2>*/}
+                    {/*</header>*/}
+                    <img
+                        src={"https://raw.githubusercontent.com/JSALT-2022-SSL/JSALT-2022-SSL.github.io/main/src/assets/videos/acknowledgement.png"}></img>
+                </section>
             </div>
         )
     }
